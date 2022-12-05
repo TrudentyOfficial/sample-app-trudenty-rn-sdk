@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "node_modules/trudenty-rn-sdk/src/assets/fonts/ttcommons-demibold.ttf",
+      "sha1": "16f2c16156d51cdf85e50ebc7cd69b8a7623cd63"
+    },
+    {
+      "path": "node_modules/trudenty-rn-sdk/src/assets/fonts/ttcommons_demibold.ttf",
+      "sha1": "fe2c65f925a0dd0c5f412759834e76be9d3396f9"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Platform, StyleSheet, Text, View, Button} from 'react-native';
 import {TrudentyKyc} from 'trudenty-rn-sdk';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -11,11 +11,16 @@ const Hello = ({navigation}) => {
     const subjectId = '6382c3582d0a5f3d9ed9021d';
     navigation.navigate('Trudenty', {subjectId});
   };
+
   return (
     <View>
       <Button title="Complete your KYC" onPress={onCreateSubmit} />
-      <Text style={{color: '#0DD3C5', fontSize: 20, fontWeight: 'bold'}}>
-        Hello Bitris!
+      <Text
+        style={{
+          color: '#0DD3C5',
+          fontSize: 20,
+        }}>
+        Hello User !
       </Text>
     </View>
   );

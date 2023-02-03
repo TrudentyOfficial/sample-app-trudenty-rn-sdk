@@ -51,6 +51,14 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+    <key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) needs access to your Camera.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>ttcommons_demibold.ttf</string>

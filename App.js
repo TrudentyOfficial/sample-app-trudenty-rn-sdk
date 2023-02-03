@@ -43,7 +43,7 @@ export default function App() {
           children={({route}) => (
             <TrudentyKyc
               config={{
-                returnPath: 'Hello',
+                returnPath: 'Hellom',
                 appName: 'Fluid Coins',
                 ApplicationID: '631b4ff5cfcc142ffe7a3f9c',
                 Environment: 'dev',

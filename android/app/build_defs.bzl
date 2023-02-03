@@ -6,7 +6,7 @@ def create_aar_targets(aarfiles):
         lib_deps.append(":" + name)
         android_prebuilt_aar(
             name = name,
-            aar = aarfile,
+            aar = aarfile   ,
         )
 
 def create_jar_targets(jarfiles):
